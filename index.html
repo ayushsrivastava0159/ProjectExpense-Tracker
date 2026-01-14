@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpenseTracker | Master Your Money</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="hero">
+
+    <!-- ✅ BACKGROUND VIDEO (FIXED) -->
+    <video autoplay loop muted playsinline>
+        <source src="./204292-923909617_tiny.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+
+        <nav>
+            <div class="logo">Spend<span>Wise</span></div>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Take Control of Your <br><span>Financial Future</span></h1>
+            <p>Track expenses, set budgets, and save more money with our simple, intuitive tracker.</p>
+            <a href="logic.html" class="btn-primary">Open Expense Tracker</a>
+        </div>
+
+        <span class="frr">Key features</span>
+
+    </div>
+</section>
+
+<div class="bottom">
+    <div class="box">
+        Add Expenses
+        <video class="autoVideo" muted loop playsinline>
+            <source src="./man analyzing financial report.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="box">
+        Data Visualiser
+        <video class="autoVideo" muted loop playsinline>
+            <source src="./Budget Planning.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="box">
+        Charts and Maps
+        <video class="autoVideo" muted loop playsinline>
+            <source src="./Click and graph.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>© 2026 Expense Tracker | Made by <span>Team Dot</span></p>
+</footer>
+
+<script>
+    function autoplayAllVideos() {
+        const videos = document.getElementsByClassName("autoVideo");
+        for (let i = 0; i < videos.length; i++) {
+            videos[i].play();
+        }
+    }
+    window.onload = autoplayAllVideos;
+</script>
+
+</body>
+</html>
