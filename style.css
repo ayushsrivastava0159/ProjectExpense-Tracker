@@ -165,6 +165,8 @@ video {
     position: relative;
     bottom: -10px;
     padding-bottom: 40px;
+     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 /* Footer */
